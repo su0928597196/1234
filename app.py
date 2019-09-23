@@ -40,7 +40,7 @@ def handle_message(event):
     msg = event.message.text
     r = '請按照順序輸入1~18'
     if msg == '18':
-        sticker_message = StickerSendMessage(package_id='11538',sticker_id='51626495')
+        sticker_message = StickerSendMessage(package_id='1',sticker_id='1')
     elif msg != '18':
         if msg == '1':
             r = '老實說,我真的煩惱了很久該不該留下來'
