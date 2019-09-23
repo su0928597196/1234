@@ -77,7 +77,7 @@ def handle_message(event):
     
     if msg == 18:
         sticker_message = StickerSendMessage(package_id='11538',sticker_id='51626495')
-    elif:
+    elif msg!=18:
         line_bot_api.reply_message(
         event.reply_token,
         TextSendMessage(text=r))
